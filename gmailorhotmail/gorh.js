@@ -20,5 +20,3 @@ function loaded() {
     }
     window.open(emailescolhido, "_self");
 }
-
-loaded();
