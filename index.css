@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(142, 204, 201, 0.39);
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+div.container {
+    height: 10em;
+    position: relative
+}
+
+div.container .text1{
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -80%)
+}
+
+div.container .text2{
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+}
+
+div.container .text3{
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 80%)
+}
+
+div.container .text4{
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 160%)
+}
+
+.text1 {
+    font-size: 64px;
+}
+
+.text1 a {
+    color: rgb(157, 166, 255);
+    text-decoration: none;
+}
+
+.text2 {
+    font-size: 64px;
+}
+
+.text2 a {
+    color: rgb(157, 166, 255);
+    text-decoration: none;
+}
+
+.text3 {
+    font-size: 64px;
+}
+
+.text3 a {
+    color: rgb(157, 166, 255);
+    text-decoration: none;
+}
+
+.text4 {
+    font-size: 64px;
+}
+
+.text4 a {
+    color: rgb(157, 166, 255);
+    text-decoration: none;
+}
